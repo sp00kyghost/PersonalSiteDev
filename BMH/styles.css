@@ -1,0 +1,120 @@
+.header {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 3em;
+    letter-spacing: -2px;
+    color: maroon;
+}
+.firstline {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 25px;
+    color: whitesmoke;
+}
+.iconpic {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+}
+body, html { 
+    height: 100%;
+    margin: 0;
+}
+.bg {
+    background-image: linear-gradient(to bottom, rgba(105,105,105,0), rgba(24,24,24, 1)), url('backgroundtest.jpg');
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 20px;
+    overflow: hidden;
+}
+.wrapper {
+    width: 960px;
+    margin: 0 auto;
+}
+.wrapper ul{ 
+    list-style: none;
+    padding-bottom: 5px;
+    margin-bottom: 0;
+}
+.wrapper ul li {
+    position: relative;
+    background: #262626;
+    width: 170px;
+    border: 1px solid #fff;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    float: left;
+    color: #fff;
+    font-size: 14px;
+}
+.wrapper ul li:hover {
+    background: #808080;
+}
+.wrapper ul ul {
+    display: none;
+}
+.wrapper ul li:hover ul{
+    display: block;
+    position: absolute;
+    left: -40.5px;
+}
+.wrapper ul ul ul{
+    margin-left: 170px;
+    top: 0;
+    position: absolute;
+}
+.h1 {
+    text-decoration: underline;
+    text-align: center;
+    font-size: 55px;
+}
+.p1 {
+    color: white;
+    float: left;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 50px;
+}
+a {
+   color: inherit;
+   text-decoration: none;
+}
+.h1 {
+    text-align: center;
+    color: maroon;
+}
+.lcornertext {
+    text-align: left;
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    color: white;
+}
+#CUP1 {
+    text-align: left;
+    position: absolute;
+    top: 18em;
+    left: 5em;
+    color: white;
+    font-weight: bolder;
+    font-size: 20px;
+}
+#email_form {
+    position: absolute;
+    top: 27em;
+    left: 10em;
+}
+#formname {
+    color: white;
+    margin-bottom: 0;
+}
+#CUP2 {
+    position: absolute;
+    top: 18em;
+    right: 5em;
+    font-size: 20px;
+    font-weight: bolder;
+    color: white;
+}

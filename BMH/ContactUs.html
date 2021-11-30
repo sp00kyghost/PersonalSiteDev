@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Budget Mobile Homes | Contact Us </title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class="bg">
+        <div class="header">
+        <picture class="iconpic">
+        <img src="testico.ico">
+        </picture>
+        <h1 style="text-decoration: underline">Contact Us</h1>
+        </div>
+        <div class="wrapper">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="AboutUs.html">About Us</a></li>
+				<li>Browse Listings</li>
+				<li>Services
+				<ul>
+					<li>List your mobile home</li>
+					<li>Schedule an appointment</li>
+				</ul>
+				</li>
+				<li>Contact Us
+				<ul>
+					<li><a href="ContactUs.html">Email</a></li>
+				</ul>
+				</li>
+			</ul>
+		</div><br><br>
+        <p id="CUP1">If by Email please fill in the following form.</p>
+        <!-- Simple form for static site, PHP later? -->
+        <div id="email_form">
+        <form action="mailto:sprevo3000@yahoo.com" method="POST" enctype="multipart/form-data" name="EmailForm">
+        <p id="formname">Name:</p><br>
+        <input type="text" size="15" name="ContactName" placeholder="Enter Full Name"><br>
+        <p id="formname">Email:</p><br>
+        <input type="email" name="Contact-Email" placeholder="Enter Email"><br>
+        <p id="formname">Message:</p><br>
+        <textarea name="Contact-Message" rows="6" cols="40" placeholder="Please contact us for any business inquiries!">
+        </textarea><br>
+        <button type="submit" value="Submit">Send</button>
+        </form>
+        </div>
+        <p id="CUP2">If by phone number, please dial ###-###-####<br> We Look forward to hearing from you!</p>
+        </div>
+    </body>
+</html>
