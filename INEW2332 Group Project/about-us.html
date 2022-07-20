@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>About Us</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script>
+    function MouseRollover(MyImage) {
+      MyImage.src = "content/img/teamBlues.png";
+    }
+
+    function MouseOut(MyImage) {
+      MyImage.src = "content/img/metallica.png";
+    }
+  </script>
+</head>
+
+<body
+  style="background-image: url('content/gifs/tenor.gif') ; background-repeat: no-repeat;background-position: center; background-size: cover;">
+  <nav id="header">
+    <script src="content/javaScript/header.js"></script>
+  </nav>
+  <div class="centerpic">
+    <!-- Seth P changed div class to be able to apply CSS to picture. 7/8/22 -->
+    <img id="metallica-img" src="content/img/metallica.png" alt="Picture of Metallica Band together."
+      onMouseOver="MouseRollover(this)" onMouseOut="MouseOut(this)" />
+  </div>
+  <div id="player">
+    <audio title="Song name: &quot;Seek & Destroy&quot;" src="content/music/Metallica.mp3" autoplay controls
+      preload="auto"></audio>
+  </div>
+  <footer>
+    <div id="footer">
+      <script src="content/javaScript/footer.js"></script>
+    </div>
+  </footer>
+</body>
+
+</html>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Country</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body
+  style="background-image: url('content/gifs/equalizebars.gif') ; background-repeat: no-repeat;background-position: center; background-size: cover;">
+  <nav id="header">
+    <script src="content/javaScript/header.js"></script>
+  </nav>
+  <div id="sidebar-left">
+
+    <button class="button button1" onclick="displayBluesGuitarist(this)" value="blues.html">Blues</button>
+    <script>
+      function displayBluesGuitarist(link) {
+        location.href = 'blues.html';
+
+      }
+    </script>
+    <br><br>
+    <button class="button button2" onclick="displayRockGuitarist(this)" value="rock.html">Rock
+    </button>
+    <script>
+      function displayRockGuitarist(link) {
+        location.href = 'rock.html';
+
+      }
+    </script>
+    <br><br>
+    <button class="button button3" onclick="displayPopSinger(this)" value="pop.html">Pop
+    </button>
+    <script>
+      function displayPopSinger(link) {
+        location.href = 'pop.html';
+
+      }
+    </script>
+    <br><br>
+    <button class="button button4" onclick="displayRapper(this)" value="rap.html">Rap
+    </button>
+    <script>
+      function displayRapper(link) {
+        location.href = 'rap.html';
+
+      }
+      </script>
+    </div>
+  <div id="main">
+    <div class="container">
+      <div class="grow">
+        <a href="country.html"><img class="blues-guitarist-image" src="content/img/georgestrait.png"
+            alt="Guitarist playing the Blues" width="300" height="300"></a>
+      </div>
+      <div id="text-on-image">"As we look into the future, it's as far as we can see. So let's make each tomorrow be the best that it can be."<br> - George Strait
+      </div>
+    </div>
+    <div id="player">
+      <audio title="Song name: &quot;Amarillo By Morning&quot;" src="content/music/Amarillo By Morning.mp3" autoplay
+        controls preload="auto"></audio>
+    </div>
+  </div>
+  <div id="sidebar-right">
+    <p class="quotes">“When someone says 'Stop living in the past' I say 'But the music was so much better back then'”<br>
+      ― Johnny Cash<br><br>“We cannot direct the wind, but we can adjust the sails.”<br> — Dolly Parton</p>
+  </div>
+  <footer>
+    <div id="footer">
+      <script src="content/javaScript/footer.js"></script>
+    </div>
+  </footer>
+</body>
+
+</html>
